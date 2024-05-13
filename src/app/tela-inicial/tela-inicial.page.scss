@@ -1,0 +1,63 @@
+ion-content{
+    --background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgb(68, 221, 96) 100%);
+}
+
+ion-header{
+    box-shadow: none;
+    --background: none
+    background-color: transparent;
+    
+}
+
+ion-toolbar{
+    --background: none;
+    background-color: transparent;
+    --border-color: transparent;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    filter: invert(1);
+    margin-left: 30px;
+}
+
+.TextoTelaInicial{
+    width: 80%;
+    margin-left: 5%;
+}
+
+h1{
+    font-family: "Ultra", serif;
+    font-size: 38px;
+}
+
+.titulo{
+    color: #144273;
+}
+
+.ano{
+    margin-top: -2%;
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+ion-button{
+    width: 55%;
+    height: 80px;
+    font-size: 20px;
+    margin-left: 23%;
+    margin-top: 5%;
+    --background: #F2C94C;
+    --box-shadow: 1px 1px 15px rgb(117, 117, 117);
+    --background-activated: #d2a92e;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
